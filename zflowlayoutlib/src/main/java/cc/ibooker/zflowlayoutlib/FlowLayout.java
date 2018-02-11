@@ -82,7 +82,7 @@ public class FlowLayout extends ViewGroup {
         }
 
         setMeasuredDimension(
-                // MeasureSpec.EXACTLY - 精确模式
+                // MeasureSpec.EXACTLY - 精确模式，用于view为固定值/match_parent
                 modeWidth == MeasureSpec.EXACTLY ? sizeWidth : width + getPaddingLeft() + getPaddingRight(),
                 modeHeight == MeasureSpec.EXACTLY ? sizeHeight : height + getPaddingTop() + getPaddingBottom()//
         );
@@ -128,10 +128,10 @@ public class FlowLayout extends ViewGroup {
                 // 记录当前行的Views
                 mAllViews.add(lineViews);
 
-                // 重置我们的行宽和行高
+                // 重置行宽和行高
                 lineWidth = 0;
                 lineHeight = childHeight + lp.topMargin + lp.bottomMargin;
-                // 重置我们的View集合
+                // 重置View集合
                 lineViews = new ArrayList<>();
             }
             lineWidth += childWidth + lp.leftMargin + lp.rightMargin;
@@ -181,7 +181,7 @@ public class FlowLayout extends ViewGroup {
     }
 
     /**
-     * 与当前ViewGroup对应的LayoutParams
+     * 用于当前ViewGroup对应的LayoutParams
      */
     @Override
     public LayoutParams generateLayoutParams(AttributeSet attrs) {
