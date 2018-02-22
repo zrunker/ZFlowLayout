@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FlowLayout flowLayout = findViewById(R.id.flowlayou);
+        FlowLayout flowLayout = findViewById(R.id.flowlayout);
 
         LayoutInflater inflater = LayoutInflater.from(this);
         for (int i = 0; i < 20; i++) {

@@ -1,6 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cc.ibooker.zflowlayoutlib.FlowLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/flowlayou"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <cc.ibooker.zflowlayoutlib.FlowLayout
+        android:id="@+id/flowlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_margin="10dp"
+        android:background="#FFF" />
+
+    <cc.ibooker.zflowlayoutlib.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/gridview_selector"
+            android:padding="5dp"
+            android:text="张三" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/gridview_selector"
+            android:padding="5dp"
+            android:text="李四张三" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/gridview_selector"
+            android:padding="5dp"
+            android:text="王五李四张三" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/gridview_selector"
+            android:padding="5dp"
+            android:text="赵六王五李四张三" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/gridview_selector"
+            android:padding="5dp"
+            android:text="孙七赵六王五李四张三" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/gridview_selector"
+            android:padding="5dp"
+            android:text="周八孙七赵六王五李四张三" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/gridview_selector"
+            android:padding="5dp"
+            android:text="吴九周八孙七赵六王五李四张三" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/gridview_selector"
+            android:padding="5dp"
+            android:text="郑十吴九周八孙七赵六王五李四张三" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/gridview_selector"
+            android:padding="5dp"
+            android:text="Tom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/gridview_selector"
+            android:padding="5dp"
+            android:text="zrunker" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/gridview_selector"
+            android:padding="5dp"
+            android:text="Android" />
+
+    </cc.ibooker.zflowlayoutlib.FlowLayout>
+</LinearLayout>
+
 
