@@ -192,7 +192,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 最后看看效果图：
 
-![流式布局效果图](http://upload-images.jianshu.io/upload_images/3480018-78472263c7443e01..jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![流式布局效果图](http://upload-images.jianshu.io/upload_images/3480018-78472263c7443e01..jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/370)
 
 [Github地址](https://github.com/zrunker/ZFlowLayout)
 [阅读原文](http://www.ibooker.cc/article/138/detail)
