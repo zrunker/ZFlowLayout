@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ZFlowLayout.iml" filepath="$PROJECT_DIR$/ZFlowLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZFlowLayout.iml" filepath="$PROJECT_DIR$/ZFlowLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zflowlayoutlib/zflowlayoutlib.iml" filepath="$PROJECT_DIR$/zflowlayoutlib/zflowlayoutlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/zflowlayoutlib/zflowlayoutlib.iml" filepath="$PROJECT_DIR$/zflowlayoutlib/zflowlayoutlib.iml" />
     </modules>
   </component>
